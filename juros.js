@@ -28,7 +28,7 @@ Exercício 4: juros compostos
 O exercício anterior já retorna o montante (capital + juros). Crie uma função em juros.js que retorne somente os juros.
 */
 
-const jurosCompostos = ({ montanteJurosCompostos }) => (C, i, t) => C - montanteJurosCompostos(C, i, t)
+const jurosCompostos = ({ montanteJurosCompostos }) => (C, i, t) => montanteJurosCompostos(C, i, t) - C
 
 
 
